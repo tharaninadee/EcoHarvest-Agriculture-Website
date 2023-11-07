@@ -1,0 +1,113 @@
+/* Style for the header */
+header {
+    background-color: #15c223; 
+    font-size: 16px;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: 60px;
+}
+
+.navbar-light {
+    background-color: #15c223; 
+    border: none;
+    padding: 1px 0;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    background-color: #8bdf95; 
+}
+
+.form-control {
+    border-color: #ffffff;
+}
+
+.btn-outline-success {
+    color: #f7f9f6 !important;
+    border-color: #fbfcfa !important;
+}
+
+/* Style for the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #5be35f; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background-color: #0ab810; 
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.navbar-toggler {
+    background-color: transparent; 
+    border: none; 
+    color: #15c223; 
+}
+.navbar-toggler-icon {
+    background-color: #15c223; 
+}
+
+
+/* Style for the footer */
+footer {
+    background-color: #388E3C;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 16px;
+}
+
+.footer-logo img {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.footer-logo p {
+    font-size: 16px;
+    color: #ddd;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media img {
+    display: inline-block;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+    height: 20px;
+}
+
+.footer-links{
+    color: #fff;
+}
+.footer-links a{
+    color: #fff;
+}
