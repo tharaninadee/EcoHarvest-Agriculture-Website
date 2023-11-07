@@ -1,0 +1,208 @@
+/* Style for section headings */
+.section-heading {
+    color: #0cb511;
+    margin-bottom: 40px;
+}
+#about-us {
+    background-color: #fff;
+    text-align: center;
+}
+.about-content {
+    padding: 20px;
+    text-align: center;
+    margin: 0 20px;
+}
+.about-header {
+    text-align: center;
+    position: relative;
+}
+.about-header img {
+    max-width: 100%;
+    height: auto;
+}
+.about-header h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+}
+.about-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+/* Style for Vision and Mission */
+.vision-mission {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.vision-mission h3 {
+    color: #0cb511;
+}
+.vision,
+.mission {
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Style for the Board of Directors section */
+.directors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.director {
+    text-align: center;
+    flex: 0 1 calc(33.333% - 40px);
+    margin: 20px;
+}
+
+.director img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.director h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.director p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+/* Style for the Sponsors section */
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sponsor {
+    text-align: center;
+    flex: 0 1 calc(33.333% - 40px);
+    margin: 20px;
+}
+
+.sponsor img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+/* Style for the Blog Section */
+#blog {
+    padding: 40px 0;
+}
+.blog-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.blog-card {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.blog-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.blog-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.blog-card p {
+    font-size: 16px;
+    color: #666;
+}
+.blog-card a {
+    margin-top: 10px;
+    color: #2E7D32;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.soilmanagement-header {
+    text-align: center;
+    position: relative;
+    color: #0cb511;
+    margin-top: 40px;
+}
+.soilmanagement-intro {
+    padding: 10px;
+    color: #333;
+    text-align: center;
+}
+.col-lg-6 {
+    color: #333;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 25rem;
+}
+.card-img-top {
+    max-width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Ecological Farming Section Styles */
+.ecological-farming-header {
+    color: #0cb511;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.ecological-farming-intro {
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+

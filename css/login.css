@@ -1,0 +1,86 @@
+#login {
+    background-image: url('images/bg1.jpg');
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#login h1 {
+    font-size: 36px;
+    color: #328c36;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+
+    margin-bottom: 10px; 
+}
+
+.login-group {
+    margin-bottom: 20px;
+}
+
+.login-group .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #48cd72;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #00b33cc4;
+}
+
+.login-group a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-group a:hover {
+    text-decoration: underline;
+}
+button:hover {
+    background-color: #00b33cc4;
+}
+
+
+.login-container p {
+    color: #333;
+    margin-top: 20px;
+}
+
+a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
