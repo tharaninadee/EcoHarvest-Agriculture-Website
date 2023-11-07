@@ -1,0 +1,56 @@
+
+header {
+    background-color: #5ebd43;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    margin-top: 10;
+    display: block;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #69dd25;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #10d050;
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+.left{
+    text-align: left;
+    text-decoration: none;
+}
+
+
+
+.success-message {
+    color: green;
+    padding: 10px;
+    text-align: center; 
+    margin-top: 20px; 
+
+}
+
